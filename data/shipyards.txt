@@ -1,9 +1,9 @@
-shipyard "Oklen Basics"
+shipyard "Arlug Basics"
 	"Tiburon"
 	"Litera"
 	"Barco"
 
-shipyard Oklen
+shipyard Arlug
 	"Ruisenor"
 	"Envio"
 	"Tiburon"

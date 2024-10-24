@@ -1,3 +1,3 @@
-# Oklen
+# Arlug
 
-Adds my Oklen for [Endless Sky](https://github.com/endless-sky/endless-sky).
+Adds my Arlug for [Endless Sky](https://github.com/endless-sky/endless-sky).

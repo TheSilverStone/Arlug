@@ -1,4 +1,4 @@
-outfitter Oklen
+outfitter Arlug
 	"D56392 Reverse Thrusters"
 	"D56392 Steering"
 	"D56392 Thrusters"
@@ -17,7 +17,7 @@ outfitter Oklen
 	"Triple Plasma Core"
 	"Ilcecan Turret"
 
-outfitter "Korath (Oklen)"
+outfitter "Korath (Arlug)"
 	"Generator (Candle Class)"
 	"Generator (Furnace Class)"
 	"Generator (Inferno Class)"

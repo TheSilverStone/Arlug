@@ -1,5 +1,5 @@
-fleet "Small Oklen"
-	government Oklen
+fleet "Small Arlug"
+	government Arlug
 	names 0-F
 	fighters 0-F
 	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"
@@ -28,8 +28,8 @@ fleet "Small Oklen"
 	variant 10
 		Ruisenor 1
 
-fleet "Large Oklen"
-	government Oklen
+fleet "Large Arlug"
+	government Arlug
 	names 0-F
 	fighters 0-F
 	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"
@@ -59,8 +59,8 @@ fleet "Large Oklen"
 	variant 10
 		Ruisenor 1
 
-fleet "Medium Oklen"
-	government Oklen
+fleet "Medium Arlug"
+	government Arlug
 	names 0-F
 	fighters 0-F
 	commodities Food Clothing Metal Plastic Equipment "Heavy Metals" Industrial "Luxury Goods"

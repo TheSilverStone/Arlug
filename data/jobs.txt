@@ -1,10 +1,10 @@
 # Copyright (c) 2024 by TheSilverStone
 #
-# Oklens is free software: you can redistribute it and/or modify it under the
+# Arlug is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
 # Foundation, either version 3 of the License, or (at your option) any later version.
 #
-# Oklens is distributed in the hope that it will be useful, but WITHOUT ANY
+# Arlug is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 #
@@ -19,7 +19,7 @@ mission "Illn-ork Cargo"
 	repeat
 	cargo "Illn-ork Shipyards Parts" 1 30
 	source
-		government "Oklen"
+		government "Arlug"
 	destination
 		system Golderfincan
 		system Mordel
@@ -27,16 +27,16 @@ mission "Illn-ork Cargo"
 	to offer
 	on complete
 		payment
-		dialog phrase "generic "Oklen" shipyard delivery"
+		dialog phrase "generic "Arlug" shipyard delivery"
 
-mission ""Oklen" Illn-ork Cargo"
+mission ""Arlug" Illn-ork Cargo"
 	name "Cargo to <planet>"
 	description "Take these <cargo> to <planet> for the Shipyards of Illn-ork, one of the most influential conpanies in history. When you complete the hauling, you will be paid <payment>, an additional 1500 credits for knowing Illn-ork."
 	job
 	repeat
 	cargo "Illn-ork Shipyards Parts" 1 30
 	source
-		government "Oklen"
+		government "Arlug"
 	destination
 		system Golderfincan
 		system Mordel
@@ -45,9 +45,9 @@ mission ""Oklen" Illn-ork Cargo"
 	on complete
 		payment
 		payment 1500
-		dialog phrase "generic "Oklen" shipyard delivery"
+		dialog phrase "generic "Arlug" shipyard delivery"
 
-mission ""Oklen" Rebel Bounty Small"
+mission ""Arlug" Rebel Bounty Small"
 	name "Kill the <npc>"
 	description "The <npc>, a small Olin ship, is marauding near the <origin> system. You will receive <payment> for destroying it, if you do so by <day>."
 	job
@@ -55,7 +55,7 @@ mission ""Oklen" Rebel Bounty Small"
 	"apparent payment" 40000
 	deadline 20
 	source
-		government ""Oklen""
+		government ""Arlug""
 	to offer
 		"combat rating" > 100
 	npc kill
@@ -71,7 +71,7 @@ mission ""Oklen" Rebel Bounty Small"
 		system
 			distance 1 1
 		fleet
-			names "Rebel "Oklen" Military"
+			names "Rebel "Arlug" Military"
 			variant
 				Saghir
 			variant
@@ -82,28 +82,28 @@ mission ""Oklen" Rebel Bounty Small"
 				Minaldmasmin
 			variant
 				"Quyan (Fighting)"
-		dialog phrase ""Oklen" got rid of bounty"
+		dialog phrase ""Arlug" got rid of bounty"
 		on kill
 			payment 40000
 			fail
 
-mission ""Oklen" Rebel Bounty Large"
+mission ""Arlug" Rebel Bounty Large"
 	name "Kill the <npc>"
-	description "The large Rebel "Oklen" ship <npc> has been attacking our ships near the <origin> system. Destroy it and its escorts by <day> if you wish to receive <payment>."
+	description "The large Rebel "Arlug" ship <npc> has been attacking our ships near the <origin> system. Destroy it and its escorts by <day> if you wish to receive <payment>."
 	job
 	repeat
 	"apparent payment" 100000
 	deadline 20
 	source
-		government ""Oklen""
+		government ""Arlug""
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 30
 		"combat rating" > 200
-		not "event: "Oklen" rebel "Oklen" peace"
+		not "event: "Arlug" rebel "Arlug" peace"
 	deadline 10
 	npc kill
-		government ""Oklen" (Rebel)"
+		government ""Arlug" (Rebel)"
 		personality
 			confusion 10
 			heroic
@@ -115,26 +115,26 @@ mission ""Oklen" Rebel Bounty Large"
 		system
 			distance 1 1
 		fleet
-			names "Rebel "Oklen" Military"
+			names "Rebel "Arlug" Military"
 			variant 4
 				Nathar
 			variant 2
 				Nakil
-		dialog phrase ""Oklen" got rid of bounty"
+		dialog phrase ""Arlug" got rid of bounty"
 		on kill
 			payment 100000
 			fail
 
-mission ""Oklen" Passengers [0]"
+mission ""Arlug" Passengers [0]"
 	name "Passengers to <planet>"
 	description "Take these <bunks> passengers to <planet> for <payment>."
 	job
 	repeat
 	passengers 2 15
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 30
 	destination
 		distance 1 4
@@ -143,16 +143,16 @@ mission ""Oklen" Passengers [0]"
 		payment
 		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."
 
-mission ""Oklen" Passengers [1]"
+mission ""Arlug" Passengers [1]"
 	name "Passengers to <planet>"
 	description "Take these <bunks> passengers to <planet> for <payment>."
 	job
 	repeat
 	passengers 2 15
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 30
 	destination
 		distance 1 4
@@ -161,37 +161,37 @@ mission ""Oklen" Passengers [1]"
 		payment
 		dialog "The <bunks> passengers get off your ship to do whatever they wanted to go here for, but not before they pay you <payment>."
 
-mission ""Oklen" Passengers [2]"
-	name ""Oklen" to <planet>"
+mission ""Arlug" Passengers [2]"
+	name ""Arlug" to <planet>"
 	description "Take these large group of <bunks> passengers to <planet>. They are many, and so will collectively pay you <payment>."
 	job
 	repeat
 	passengers 20 120
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 23
 	destination
 		distance 1 4
-		government "Oklen"
+		government "Arlug"
 		not planet Laqualk
 	on complete
 		payment
 		payment 2000
-		dialog "As the group of "Oklen" go out of your ship, they each hand you 1/<bunks>th of <payment>."
+		dialog "As the group of "Arlug" go out of your ship, they each hand you 1/<bunks>th of <payment>."
 
-#mission ""Oklen" Risky Tourists"
+#mission ""Arlug" Risky Tourists"
 #	name "Risk-loving Tourists"
-#	description "These "Oklen" are interested in touring non-"Oklen" space. Discreetly take them to the marked systems and back for <payment>."
+#	description "These "Arlug" are interested in touring non-"Arlug" space. Discreetly take them to the marked systems and back for <payment>."
 #	job
 #	repeat
 #	passengers 2 20
 #	clearance "You find coordinates to land where there are no inhabitants."
 #	source
-#		government "Oklen"
+#		government "Arlug"
 #	to offer
-#		has "language: "Oklen""
+#		has "language: "Arlug""
 #		random < 10
 #	"distance calculation settings"
 #		"all wormholes"
@@ -214,7 +214,7 @@ mission ""Oklen" Passengers [2]"
 #			`	As your passengers hurry back to your ship, you take off. Hopefully that was everyone.`
 #				depart
 #			label leftbehind
-#			`	Well, too bad for those poor "Oklen". You see them being surrounded by the other ships, but decide to take off anyway.`
+#			`	Well, too bad for those poor "Arlug". You see them being surrounded by the other ships, but decide to take off anyway.`
 #				flee
 #				fail
 #	on complete
@@ -222,7 +222,7 @@ mission ""Oklen" Passengers [2]"
 #		payment 10000
 #		dialog "Your passengers walk away, excitedly taking about their trip. You find <payment> in their cabin."
 
-mission ""Oklen" Rush Delivery [0]"
+mission ""Arlug" Rush Delivery [0]"
 	name "Rush to <planet>"
 	description "A character on <planet> is in dire need of <cargo> before <day>. Get it there by then for the reward of <payment>."
 	job
@@ -230,20 +230,20 @@ mission ""Oklen" Rush Delivery [0]"
 	cargo random 2 10
 	deadline
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 23
 	destination
 		distance 1 4
-		government "Oklen"
+		government "Arlug"
 		not planet Laqualk
 	on complete
 		payment
 		payment 100
 		dialog "The cargo is speedily unloaded from your ship, and you are paid <payment> as the trolley leaves."
 
-mission ""Oklen" Rush Delivery [1]"
+mission ""Arlug" Rush Delivery [1]"
 	name "Rush to <planet>"
 	description "Take this <cargo> to <planet> before <day> for a payment of <payment>."
 	job
@@ -251,19 +251,19 @@ mission ""Oklen" Rush Delivery [1]"
 	cargo random 5 40
 	deadline
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 23
 	destination
 		distance 1 4
-		government "Oklen"
+		government "Arlug"
 		not planet Laqualk
 	on complete
 		payment
 		dialog "The cargo is unloaded from your ship and carted away."
 
-mission ""Oklen" Rush Delivery [2]"
+mission ""Arlug" Rush Delivery [2]"
 	name "Rush to <planet>"
 	description "Take this <cargo> to <planet> before <day> for a payment of <payment>."
 	job
@@ -271,19 +271,19 @@ mission ""Oklen" Rush Delivery [2]"
 	cargo random 5 40
 	deadline
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 23
 	destination
 		distance 1 4
-		government "Oklen"
+		government "Arlug"
 		not planet Laqualk
 	on complete
 		payment
 		dialog "The cargo is unloaded from your ship and carted away."
 
-mission ""Oklen" Bulk Delivery [0]"
+mission ""Arlug" Bulk Delivery [0]"
 	name "Bulk Delivery to <planet>"
 	description "Take these <cargo> to <planet>. For each set of <tons> that safely arrive, you will be paid <payment>."
 	job
@@ -291,20 +291,20 @@ mission ""Oklen" Bulk Delivery [0]"
 	cargo random 30 100
 	deadline
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 40
 	destination
 		distance 1 4
-		government "Oklen"
+		government "Arlug"
 		not planet Laqualk
 	on complete
 		payment
 		payment 1000
 		dialog "You take the cargo to a huge unloading facility, whence it is sent to the warehouses."
 
-mission ""Oklen" Bulk Delivery [1]"
+mission ""Arlug" Bulk Delivery [1]"
 	name "Bulk Delivery to <planet>"
 	description "Take these <cargo> to <planet>. For each set of <tons> that safely arrive, you will be paid <payment>."
 	job
@@ -312,13 +312,13 @@ mission ""Oklen" Bulk Delivery [1]"
 	cargo random 30 100
 	deadline
 	source
-		government "Oklen"
+		government "Arlug"
 	to offer
-		has "language: "Oklen""
+		has "language: "Arlug""
 		random < 40
 	destination
 		distance 1 4
-		government "Oklen"
+		government "Arlug"
 		not planet Laqualk
 	on complete
 		payment

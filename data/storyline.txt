@@ -11,13 +11,13 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-mission "First Contact: Oklen"
-	name "Arlug to <destination>"
+mission "First Contact: Arlug"
+	name "Arlug to <destination>."
 	description "Take Arlug to <destination>. He will pay you <payment>."
 	landing
 	repeat
 	source
-		government Oklen
+		government Arlug
 		not planet Destor
 	destination Destor
 	passengers 1
