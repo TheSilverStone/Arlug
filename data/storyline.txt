@@ -12,11 +12,11 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "First Contact: Oklen"
-	name "Arlug to <destination>."
+	name "Arlug to <destination>"
 	description "Take Arlug to <destination>. He will pay you <payment>."
 	landing
-	source
 	repeat
+	source
 		government Oklen
 		not planet Destor
 	destination Destor
