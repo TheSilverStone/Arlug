@@ -1,10 +1,10 @@
 # Copyright (c) 2014 by TheSilverStone
 #
-# Endless Sky is free software: you can redistribute it and/or modify it under the
+# Arlug is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
 # Foundation, either version 3 of the License, or (at your option) any later version.
 #
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# Arlug is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 #
@@ -76,7 +76,7 @@ mission "First Contact: Arlug"
 			`	you run outside and take off. As you are breaking the thin atmosphere, an alien warship jumps in, and attacks the <ship>. The <ship> is pulverized.`
 				die
 			label die3
-			`	you go downstairs, but a a giant tentacle reaches out towards you, and twirls around you, and throws you into the atmosphere. You slowly suffocate.`
+			`	You go downstairs, dreading what you may find there, but the only thing besides a dark hole in one off the walls is a curious box. You are drawn by some mysterious force over. You open the lid, and it's full of credit chips, each one worth 2 millon credits. You pick up the box, but a giant tentacle reaches out towards you, thrusts you through the ceiling and destroys the <ship>. You are thrown into the atmosphere where you slowly suffocate.`
 				die
 			label Arlug
 			`	You step up the stairs, which are very steep. Suddenly an arm grabs you, "don't make any noise. You'll be eaten. Can you take me to <destination> quietly?"`
