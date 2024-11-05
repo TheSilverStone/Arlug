@@ -10,6 +10,16 @@
 #
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
+outfit "Gigantic bunk room"
+	category "Systems"
+	cost 400000
+	thumbnail "outfit/gigantic bunk room"
+	"mass" 1
+	"bunks" 100
+	"outfit space" -300
+	"unplunderable" 1
+	description "If you really want to make space for a few more passengers (or crew members, if you're trying to capture other ships), you can expand the living space of your ship into the area usually reserved for outfits."
+
 outfit "horndor regenerator"
 	category "Systems"
 	cost 800000
